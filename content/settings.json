@@ -1,0 +1,10 @@
+{
+  "title": "Firetask Docs",
+  "url": "https://docs.firetask.io",
+  "logo": {
+    "light": "/firetask-logo-dark.svg",
+    "dark": "/firetask-logo-light.svg"
+  },
+  "github": "firetask/docs",
+  "twitter": "@stewones"
+}
