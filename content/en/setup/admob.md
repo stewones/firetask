@@ -1,9 +1,15 @@
 ---
 title: Admob
 description: ""
-position: 2
-category: Guide
+position: 11
+category: Setup
 ---
+
+<alert>
+
+This step isn't required to get up and running. Feel free to jump to [run the app](/setup/run-app) section
+
+</alert>
 
 ## Setup account
 
@@ -22,16 +28,8 @@ category: Guide
 ### Android
 
 1. open `android/app/src/main/AndroidManifest.xml`
-2. add the app id obteined previously to the meta data value. it should look like
-
-```xml
-<meta-data
- android:name="com.google.android.gms.ads.YOUR_APPLICATION_ID"
- android:value="@string/admob_app_id"/>
-```
-
-3. open `android/app/src/main/res/values/strings.xml`
-4. also add the app id to the `admob_app_id` string. it should look like
+2. open `android/app/src/main/res/values/strings.xml`
+3. also add the app id to the `admob_app_id` string. it should look like
 
 ```xml
 <string name="admob_app_id">YOUR_APPLICATION_ID</string>
@@ -55,6 +53,5 @@ category: Guide
 
 ### Learn more
 
-- https://github.com/capacitor-community/admob
 - https://developers.google.com/admob/ios/quick-start?hl=en-US#import_the_mobile_ads_sdk
 - https://developers.google.com/admob/android/quick-start?hl=en-US#import_the_mobile_ads_sdk

@@ -10,7 +10,7 @@ stack:
   - Tailwind 3+
 ---
 
-> Clean, easy to use and bootstrap-friendly starter kit for Ionic Angular applications.
+Clean, easy to use and bootstrap-friendly starter kit for Ionic Angular applications built upon Firebase.
 
 ## Stack
 
@@ -37,11 +37,25 @@ stack:
 - 🔧&nbsp; Change user name
 - 🔑&nbsp; Change user password
 - 😛&nbsp; Change user avatar
-- 🌙&nbsp; Dark mode
+- 🌙&nbsp; Dark and light mode
 - 🗺️&nbsp; Google maps integration
 - 📕&nbsp; Agenda integration
-- 😻&nbsp; Tinder cat
 - 🎤&nbsp; Speech recognition
 - 🔊&nbsp; Text to speech
 - 🔦&nbsp; Barcode scanner
 - 📱&nbsp; Admob
+
+## Getting Started
+
+Get Firetask up and running for development through these little steps
+
+1. [Download](/setup/download)
+2. [Install](/setup/install)
+3. [Create Firebase project](/setup/firebase-create-project)
+4. [Install Firebase CLI](/setup/firebase-install-cli)
+5. [Link with Firestore](/setup/firebase-link-firestore)
+6. [Add Firebase SDK to the app](/setup/firebase-add-sdk)
+7. [Add Firebase service account](/setup/firebase-add-service-account)
+8. [Seed database](/setup/seed-database)
+9. [Run the app](/setup/run-app)
+10. Enjoy 🥳

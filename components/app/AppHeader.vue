@@ -39,13 +39,11 @@
           />
           <AppSearch v-else class="hidden lg:block" />
         </div>
-        <div
-          class="lg:w-1/5 flex items-center pl-4 lg:pl-8"
-          :class="{
+        <div class="lg:w-1/5 flex items-center justify-start pl-4 lg:pl-8">
+          <!-- :class="{
             'justify-between': lastRelease && settings.layout !== 'single',
             'justify-end': !lastRelease || settings.layout === 'single',
-          }"
-        >
+          }" -->
           <NuxtLink
             v-if="lastRelease"
             :to="localePath('/releases')"
@@ -55,6 +53,17 @@
           >
           <div class="flex items-center">
             <a
+              style="padding: 2px"
+              class="cursor-pointer relative inline-flex items-center justify-center mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg bg-gradient-to-br from-red-600 to-orange-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-red-200 dark:focus:ring-red-800"
+            >
+              <span
+                class="hover:bg-opacity-0 relative px-3 py-1 transition-all ease-in duration-75 dark:bg-gray-900 rounded-md"
+              >
+                <span class="opacity-80"> Buy Now </span>
+              </span>
+            </a>
+
+            <!-- <a
               class="text-gray-700 dark:text-gray-300 hover:text-primary-500 dark-hover:text-primary-500"
               :class="{
                 'hidden lg:block': settings.layout !== 'single',
@@ -75,8 +84,8 @@
               }"
             >
               <IconTwitter class="w-5 h-5" />
-            </a>
-            <a
+            </a> -->
+            <!-- <a
               v-if="settings.github"
               :href="githubUrls.repo"
               target="_blank"
@@ -89,7 +98,7 @@
               }"
             >
               <IconGithub class="w-5 h-5" />
-            </a>
+            </a> -->
 
             <button
               v-if="settings.layout !== 'single'"
@@ -98,7 +107,7 @@
               @click.stop="menu = !menu"
             >
               <IconX v-if="menu" class="w-5 h-5" />
-              <IconMenu v-else class="w-5 h-5" />
+              <IconMenuAlt v-else class="w-6 h-6" />
             </button>
           </div>
         </div>
@@ -115,6 +124,12 @@ export default {
     return {
       scrolled: 0,
     };
+  },
+  head: {
+    bodyAttrs: {
+      class:
+        "antialiased text-gray-700 leading-normal bg-white dark:bg-gray-900 dark:text-gray-300 scrollbar-thin scrollbar-thumb-gray-300 dark:scrollbar-thumb-gray-800 scrollbar-thumb-rounded-lg scrollbar-thumb-shadow-lg",
+    },
   },
   computed: {
     ...mapGetters(["settings", "githubUrls", "lastRelease"]),
