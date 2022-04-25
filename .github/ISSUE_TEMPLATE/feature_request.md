@@ -1,9 +1,9 @@
 ---
-name: Feature plan
+name: Feature request
 about: Add feature planning
-title: ''
+title: ""
 labels: feature
-assignees: ''
+assignees: ""
 ---
 
 **Is your feature request related to a problem? Please describe.**

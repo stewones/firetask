@@ -49,11 +49,11 @@
         </li>
 
         <!-- EXTERNAL LINKS -->
-        <!-- <li class="my-4">
+        <li class="my-4" v-if="apiLinks.length">
           <p
             class="mb-2 text-gray-500 uppercase tracking-wider font-bold text-sm lg:text-xs"
           >
-            APIs
+            External
           </p>
           <ul>
             <li v-for="(link, index) in apiLinks">
@@ -69,7 +69,7 @@
               </a>
             </li>
           </ul>
-        </li> -->
+        </li>
         <li class="lg:hidden space-x-2">
           <p
             class="mb-2 text-gray-500 uppercase tracking-wider font-bold text-sm lg:text-xs"

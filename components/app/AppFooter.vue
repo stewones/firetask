@@ -9,7 +9,7 @@
         <small>
           © {{ currentYear }}
           <a
-            class="w-8 opacity-100 hover:opacity-75 font-semibold"
+            class="w-8 opacity-100 font-semibold hover:text-primary-500 dark-hover:text-primary-500"
             href="https://intenseloop.com"
             target="_blank"
             title="Powered by Intenseloop"
@@ -45,6 +45,18 @@
           class="text-gray-700 dark:text-gray-300 hover:text-primary-500 dark-hover:text-primary-500 ml-4"
         >
           <IconTwitter class="w-5 h-5" />
+        </a>
+
+        <a
+          v-if="settings.github"
+          :href="`https://github.com/${settings.github}`"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Github"
+          name="Github"
+          class="text-gray-700 dark:text-gray-300 hover:text-primary-500 dark-hover:text-primary-500 ml-4"
+        >
+          <IconGithub class="w-5 h-5" />
         </a>
         <!-- <a
           style="width: 30px"
