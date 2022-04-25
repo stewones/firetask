@@ -49,13 +49,13 @@ Clean, easy to use and bootstrap-friendly starter kit for Ionic Angular applicat
 
 Get Firetask up and running for development through these little steps
 
-1. [Download](/setup/download)
+1. [Download](/setup/app-download)
 2. [Install](/setup/install)
 3. [Create Firebase project](/setup/firebase-create-project)
 4. [Install Firebase CLI](/setup/firebase-install-cli)
 5. [Link with Firestore](/setup/firebase-link-firestore)
 6. [Add Firebase SDK to the app](/setup/firebase-add-sdk)
 7. [Add Firebase service account](/setup/firebase-add-service-account)
-8. [Seed database](/setup/seed-database)
-9. [Run the app](/setup/run-app)
+8. [Seed database](/setup/database-seed)
+9. [Run the app](/setup/app-run)
 10. Enjoy 🥳

@@ -7,7 +7,7 @@ category: Setup
 
 <alert>
 
-This step isn't required to get up and running. Feel free to jump to [run the app](/setup/run-app) section
+This step isn't required to get up and running. Feel free to jump to [run the app](/setup/app-run) section
 
 </alert>
 

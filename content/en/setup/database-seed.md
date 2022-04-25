@@ -19,4 +19,4 @@ From the app root issue these following commands in order
 
 - You can check email+password of created users at `seeds/users.json`
 - Check out Firebase console to see data added on Cloud Firestore.
-- Once it's completed you should be all set to [run the app](/setup/run-app).
+- Once it's completed you should be all set to [run the app](/setup/app-run).

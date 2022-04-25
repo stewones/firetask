@@ -29,7 +29,7 @@ Same as above but with production bundle and no HMR
 npm run serve:ios
 ```
 
-Same as development mode but will also open the IDE so you can execute the app in device. Make sure to have [set up the iOS environment](/dev/build-ios).
+Same as development mode but will also open the IDE so you can execute the app in device. Make sure to have [set up the iOS environment](/guides/build-ios).
 
 ### Android
 
@@ -37,4 +37,4 @@ Same as development mode but will also open the IDE so you can execute the app i
 npm run serve:android
 ```
 
-Same as development mode but will also open the IDE so you can execute the app in device. Make sure to have [set up the Android environment](/dev/build-android).
+Same as development mode but will also open the IDE so you can execute the app in device. Make sure to have [set up the Android environment](/guides/build-android).
