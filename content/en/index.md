@@ -48,7 +48,13 @@ Clean, easy to use and bootstrap-friendly starter kit for Ionic Angular applicat
 
 ## Demo
 
+<div style="max-width: 375px;">
+
+👉&nbsp;&nbsp; https://demo.firetask.io
+
 <code-sandbox :src="demo"></code-sandbox>
+
+</div>
 
 ## Getting Started
 
