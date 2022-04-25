@@ -8,6 +8,7 @@ stack:
   - Ionic 6+
   - Capacitor 3+
   - Tailwind 3+
+demo: https://demo.firetask.io/
 ---
 
 Clean, easy to use and bootstrap-friendly starter kit for Ionic Angular applications built upon Firebase.
@@ -44,6 +45,10 @@ Clean, easy to use and bootstrap-friendly starter kit for Ionic Angular applicat
 - 🔊&nbsp; Text to speech
 - 🔦&nbsp; Barcode scanner
 - 📱&nbsp; Admob
+
+## Demo
+
+<code-sandbox :src="demo"></code-sandbox>
 
 ## Getting Started
 
