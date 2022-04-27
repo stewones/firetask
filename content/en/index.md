@@ -11,7 +11,7 @@ stack:
 demo: https://demo.firetask.io/
 ---
 
-Clean, easy to use and bootstrap-friendly starter kit for Ionic Angular applications built upon Firebase.
+Clean, easy to use and bootstrap-friendly Task Management app with tons of native features.
 
 ## Stack
 
@@ -19,7 +19,7 @@ Clean, easy to use and bootstrap-friendly starter kit for Ionic Angular applicat
 
 ## Features
 
-25+ awesome features built for developers, backed by Firebase.
+24+ awesome features built for developers, backed by Firebase.
 
 - ✨&nbsp; Animated splash screen
 - 🔓&nbsp; Password auth

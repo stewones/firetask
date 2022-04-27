@@ -7,7 +7,7 @@ category: ""
 
 ## How do I purchase a license for my entire team?
 
-You can purchase a license that you can share with your entire team for $499 USD on CodeCanyon.
+You can purchase a license that you can share with your entire team for $260 USD on CodeCanyon.
 
 For more information on team licensing specifics, read through [our license](/license#team-license). If you have any question don't hesitate to contact us through support@intenseloop.com
 
