@@ -1,7 +1,7 @@
 ---
 title: Download
 description: ""
-position: 3
+position: 6
 category: Setup
 ---
 

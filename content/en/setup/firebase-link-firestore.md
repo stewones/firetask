@@ -1,7 +1,7 @@
 ---
 title: Link with Firestore
 description: ""
-position: 7
+position: 10
 category: Setup
 ---
 

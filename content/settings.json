@@ -9,5 +9,6 @@
   "twitter": "@stewones",
   "defaultDir": "",
   "defaultBranch": "master",
-  "apiLinks": []
+  "apiLinks": [],
+  "docsHidden": ["privacy", "buy"]
 }

@@ -1,7 +1,7 @@
 ---
 title: Add Firebase SDK
 description: ""
-position: 8
+position: 11
 category: Setup
 ---
 

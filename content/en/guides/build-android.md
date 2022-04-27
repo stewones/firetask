@@ -1,7 +1,7 @@
 ---
 title: Build Android
 description: ""
-position: 2
+position: 17
 category: Guides
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Install Firebase CLI
 description: ""
-position: 6
+position: 9
 category: Setup
 ---
 

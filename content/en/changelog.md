@@ -1,9 +1,36 @@
 ---
 title: Changelog
 description: ""
-position: 2
+position: 3
 category: ""
 ---
+
+## 4.0.0
+
+> 2022/04/26
+
+### New major version
+
+<alert>
+
+Chat feature has been removed from Firetask. Now we have a new product dedicated for conversations, check out [Chatness](https://chatness.app).
+
+</alert>
+
+### New features
+
+- Animated splash screen
+- Realtime task in list format
+- Realtime task in kanban format
+- Task search
+- User settings section
+- User profile
+- Dark and light mode
+- Integration with user's device contact list (agenda)
+- Speech recognition
+- Text to speech
+- Barcode scanner
+- Admob with new banner formats
 
 ## 3.0.1
 

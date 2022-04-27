@@ -1,7 +1,7 @@
 ---
 title: Install
 description: ""
-position: 4
+position: 7
 category: Setup
 ---
 
