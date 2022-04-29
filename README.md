@@ -1,27 +1,5 @@
-# firetask-docs
+# Firetask
 
-## Setup
+Clean, easy to use and bootstrap-friendly Task Management app with tons of native features.
 
-Install dependencies:
-
-```bash
-npm run install
-```
-
-## Development
-
-```bash
-npm run dev
-```
-
-## Static Generation
-
-This will create the `dist/` directory for publishing to static hosting:
-
-```bash
-npm run generate
-```
-
-To preview the static generated app, run `npm run start`
-
-For detailed explanation on how things work, checkout [nuxt/content](https://content.nuxtjs.org) and [@nuxt/content theme docs](https://content.nuxtjs.org/themes-docs).
+Learn more at [firetask.io](https://firetask.io)
